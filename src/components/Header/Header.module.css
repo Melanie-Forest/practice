@@ -1,0 +1,66 @@
+.Header {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 6.25vw;
+    width: 100vw;
+}
+
+.header_box {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    padding: 2.08vw 0 2.08vw 4.17vw;
+}
+
+.header_link{
+    height: 2.08vw;
+    width: 2.08vw;
+}
+
+.nav_panel {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    width: stretch;
+    height: 6.25vw;
+}
+
+.menu_list {
+    display: flex;
+    flex-direction: row;
+    box-sizing: inherit;
+    justify-content: space-between;
+    margin: 2.5vw auto 2.5vw 27.1825vw;
+    width: 38.8vw;
+    list-style-type: none;
+}
+
+.menu_item {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: white;
+}
+
+.header_user_button {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    justify-content: flex-end;
+    margin: 2vw 3vw 2vw 0;;
+}
+
+.user {
+    
+}
+
+.user_button {
+    height: 2.3vw;
+    width: 9.53125vw;
+}

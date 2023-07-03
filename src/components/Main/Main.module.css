@@ -1,0 +1,388 @@
+.Main {
+    display: flex;
+    flex: 2 0 auto;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0 16.25vw;
+    color: white;
+}
+
+.what_it_is {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    margin: 10.4vw 0 0 0;
+    height: max-content;
+    align-content: stretch;
+    
+}
+
+.wts_pic{
+    width: 27.395vw;
+    height: 28.23vw;
+}
+
+.wts_card {
+    width: 50%;
+    color: white;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+.text_head {
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin: 3.59375vw 0 2.34375vw 0;
+}
+
+
+.fast_starting {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    margin: 10.4vw 0 0 0;
+    height: max-content;
+    align-content: stretch;
+}
+
+.fs_head {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    height: max-content;
+}
+
+.icon_heading {
+    margin: 0 0 0 -1.042vw;
+    height: 6.615vw;
+    width: 6.615vw;
+}
+
+.fs_text_head {
+    font-size: 2.5vw;
+    font-weight: 700;
+    vertical-align: middle;
+    margin: 1.5625vw 1.042vw;
+}
+
+.fs_text {
+    opacity: 0.5;
+    margin: 1.042vw 0 4.16vw 0.26vw;
+}
+
+.fs_table {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+}
+
+.fs_table1 {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    height: max-content;
+    margin: 0 0 1.042vw 0;
+    font-size: 1.875vw;
+    font-weight: 700;
+
+}
+
+.fs_table2 {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    height: 4.16vw;
+}
+
+.fs_table3 {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    height: max-content;
+    opacity: 0.5;
+    padding: 0;
+    margin: 0;
+}
+
+.fs_tab_item {
+    box-sizing: inherit;
+    width: 25%;
+}
+
+.fs_tab_item1 {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 16.875vw;
+    height: fit-content;
+}
+
+.fs_tab_item2 {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 16.875vw;
+    height: fit-content;
+    padding: 0.52vw 0;
+}
+
+.fs_tab_item3 {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 16.875vw;
+    height: fit-content;
+    padding: 1.3vw 0;
+}
+
+.fs_tab_item4 {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: border-box;
+    width: 16.875vw;
+    height: fit-content;
+    padding: 1.823vw 0;
+}
+
+.fs_tab_item5 {
+    box-sizing: inherit;
+    width: 25%;
+    padding: 1.823vw 1.042vw 0 0;
+}
+
+.skills {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    margin: 10.416vw 0 0 0;
+}
+
+.sk_heading {
+    font-size: 2.5vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+.sk_cardbox {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+}
+
+.sk_card {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+    padding: 6.25vw 0 0 0;
+}
+
+.sk_card_logo {
+    width: 5.2vw;
+    height: max-content;
+    margin: 0 auto 3.125vw;
+}
+
+.sk_card_head {
+    font-size: 1.25vw;
+    font-weight: 500;
+    margin: 0 0 1.5625vw 0;
+}
+
+.sk_card_text {
+    opacity: 0.4;
+    margin: 0.78125vw;
+}
+
+.partners {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    margin: 10.416vw 0 0 0;
+}
+
+.partners_head {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    font-size: 2.5vw;
+    font-weight: 700;
+    height: max-content;
+}
+
+.p_text {
+    vertical-align: center;
+    height: inherit;
+    padding: 1.5625vw 1.042vw;
+}
+
+.partners_table {
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3.125vw 0;
+}
+
+.partners_table_card {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    padding: 1.5625vw 3.125vw;
+}
+
+.partners_logo{
+    height: 4.84375vw;
+    width: 10.15625vw;
+}
+
+.icon_head {
+    transform: rotate(180deg);
+    height: 6.615vw;
+    width: 6.615vw;
+}
+
+.program {
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    margin: 10.416vw auto 0 auto;
+    text-align: center;
+    width: 39.0625vw;
+}
+
+.pro_heading{
+    font-size: 2.5vw;
+    font-weight: 700;
+    padding: 1.5625vw;
+}
+
+.pro_text{
+    opacity: 0.5;
+}
+
+.pro_gram{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    justify-content: center;
+    margin: 4.16vw 0 0 0;
+}
+
+.pro_icon{
+    transform: rotate(135deg);
+    height: 6.615vw;
+    width: 6.615vw;
+    margin: 0 auto;
+
+}
+
+.pro_gram_col1{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    text-align: end;
+    margin-right: 3.125vw;
+}
+
+.pro_gram_col2{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    text-align: start;
+    margin-left: 3.125vw;
+}
+
+.pro_card{
+    padding-bottom: 0.52vw;
+}
+
+.pro_card_space{
+    height: 4.95vw;
+}
+
+.timeline{
+    width: 0.3125vw;
+}
+
+.pro_card_text1{
+    font-size: 0.73vw;
+    opacity: 0.5;
+}
+
+.pro_card_text2{
+    font-size: 0.9375vw;
+    margin-top: 0.78125vw;
+}
+
+.mentors{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    margin: 10.416vw 0 0 0;
+}
+
+.mentors_head{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+}
+
+.men_heading{
+    font-size: 2.5vw;
+    font-weight: 700;
+    padding: 1.5625vw;
+}
+
+.icon_men{
+    transform: rotate(315deg);
+    height: 6.615vw;
+    width: 6.615vw;
+}
+
+.mentors_cards{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    flex-wrap: wrap;
+    margin-top: 5.73vw;
+}
+
+.mentors_card{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    text-align: center;
+    height: max-content;
+    width: 33%
+
+}
+
+.mentor_photo{
+    height: 9.896vw;
+    width: 9.896vw;
+    margin: 0 auto;
+}
+
+.mentor_name{
+    font-size: 1.25vw;
+    font-weight: 500;
+    margin-top: 2.083vw;
+}
+
+.mentor_profession{
+    margin-top: 0.78125vw;
+    opacity: 0.8;
+}
+
+.biography_button{
+    margin-top: 1.5625vw;
+    height: 2.3vw;
+    width: 7.5vw;
+}
+
+

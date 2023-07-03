@@ -1,0 +1,197 @@
+.MainScreen {
+    display: flex;
+    flex: 2 0 auto;
+    flex-direction: column;
+    box-sizing: border-box;
+    
+}
+
+.Main_page{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    height: 37vw;
+    width: 100vw;
+    color: aliceblue;
+    padding: 0 16.25vw;      
+}
+
+.Main_page_box{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    justify-content: flex-start;
+    margin: 7.8125vw 0 11.35vw 0;
+    width: 67.5vw;
+    height: 37vw;
+}
+
+.Main_page_h{
+    font-size: 3.33vw;
+    font-weight: 700;
+    height: 9.375vw;
+    width: 47.9vw;
+    margin: 0 0 2.6vw 0;
+}
+
+.Main_page_timer{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    height: 5.83vw;
+    width: 27.1875vw;
+    justify-content: space-between;
+}
+
+.Main_page_timer_item{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    justify-content: center;
+    text-align: center;
+    width: 6vw;
+    height: 5.78125vw;
+    background-color: #121212;
+    text-decoration: none;
+    padding: 1.04vw 1.5625vw;
+}
+
+.Main_page_timer_count{
+    font-size: 1.875vw;
+    font-weight: 700;
+}
+
+.Main_page_timer_name{
+    opacity: 0.4;
+}
+
+.Main_line{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    background-color: #121212;
+    padding: 1.875vw 16.25vw;
+    width: 100vw;
+    height: 6.77vw;
+    color:white;
+}
+
+.Main_line_button{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    justify-content: center;
+}
+
+.line_b{
+    height: 2.3vw;
+    width: 8.8vw;
+}
+
+.line_button{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+}
+
+.line__button{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    width: 8.8vw;
+    height: 2.3vw;
+    border-color: none;
+}
+
+.line_table{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    padding: 0 4.21875vw;
+    width: 21.51vw;
+    vertical-align: middle;
+}
+
+.Main_line_table1{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    width: 11.6145vw;
+    opacity: 0.4;
+}
+
+.Main_line_table2{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    width: 1.458vw;
+    font-weight: 700; 
+}
+
+.table_item{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    height: 1.25vw;
+}
+
+.center_line_bar{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    height: 0.52vw;
+}
+
+.line_bar{
+    display: inherit;
+    flex-direction: column;
+    box-sizing: inherit;
+    width: 37.1875vw;
+    
+}
+
+.line_bar_box{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    height: 1.25vw;
+    vertical-align: middle;
+    margin: 0 0 0.416vw 0;
+}
+
+.bar_box1{
+    opacity: 0.4;
+}
+
+.bar_box2{
+    font-weight: 700; 
+    margin: 0 1.5625vw;
+}
+
+.line_bar_box2{
+    display: inherit;
+    flex-direction: row;
+    box-sizing: inherit;
+    justify-content: space-between;
+    height: 1.25;
+    vertical-align: middle;
+    margin: 0.26vw 0 0.416vw 0;
+}
+
+.bar_box3{
+    opacity: 0.4;
+    display: inherit;
+}
+
+.pg_neeed{
+    width: 22.916vw;
+    height: 0.3125vw;
+    background-image: url(../../img/costline1.svg);
+}
+
+.pg_compleete{
+    width: 14.27vw;
+    height: 0.3125vw;
+    background-image: url(../../img/costline2.svg) ;
+}
+
